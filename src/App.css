@@ -1,23 +1,32 @@
+body {
+  background-color: hsl(150, 100%, 60%)
+
+}
+
 .App {
-  width: 30rem;
-  height: 10rem;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20%;
 }
 
 
-.test1 {
+.test1, .test2 {
   display: flex;
   justify-content: space-around;
 }
-.componentOne, .componentTwo, .componentThree, .componentFour {
+.componentOne,
+.componentTwo,
+.componentThree,
+.componentFour {
   width: 50%;
-  height: 5rem;
+  height: 10rem;
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #0069ed;
-  color: #ffffff;
+  background-color: hsl(213, 100%, 46%);
+  color: hsl(0, 0%, 100%);
   font-family: sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -28,18 +37,28 @@
   -moz-appearance: button;
   appearance: auto;
 }
+
 .componentOne:hover,
 .componentTwo:hover,
 .componentThree:hover,
 .componentFour:hover {
-  background: #99C3F7;
+  background: hsl(213, 85%, 78%);
+}
+
+.componentOne {
+  border-right: 1px solid hsl(213, 85%, 78%);
+  border-bottom: 1px solid hsl(213, 85%, 78%);
+}
+.componentThree{
+  border-right: 1px solid hsl(213, 85%, 78%);
+}
+.text {
+  text-align: center;
+  padding-top: 3rem;
 }
 
 
-.test2 {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .buttonContainer {
   padding-top: 10%;
