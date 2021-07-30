@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(150, 100%, 60%)
+  background-color: hsla(150, 100%, 60%, 0.144)
 
 }
 
@@ -25,8 +25,8 @@ body {
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background-color: hsl(213, 100%, 46%);
-  color: hsl(0, 0%, 100%);
+  background-color: hsl(177, 73.2%, 38.04%);
+  color: hsla(100, 100%, 100%);
   font-family: sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -42,7 +42,8 @@ body {
 .componentTwo:hover,
 .componentThree:hover,
 .componentFour:hover {
-  background: hsl(213, 85%, 78%);
+  background: hsl(177, 73.2%, 60.04%);
+  color: hsl(0, 0%, 0%);
 }
 
 .componentOne {
@@ -55,8 +56,14 @@ body {
 .text {
   text-align: center;
   padding-top: 3rem;
+  font-size: 2rem;
 }
 
+.logo {
+  width: 100%;
+  margin-top: -15rem;
+  padding-bottom: 10rem;
+}
 
 
 
